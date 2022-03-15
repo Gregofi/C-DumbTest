@@ -4,7 +4,7 @@ Totally minimal testing framework for C (and C++) language. It was created becau
 ## Usage
 Include the header file into your project.
 ``` cpp
-int RandomTest() {
+TEST(RandomTest) {
     ASSERT_W(2 > 1);
     ASSERT_EQ(3, 3);
     return EXIT_SUCCESS;
@@ -14,6 +14,6 @@ Example of simple test. Test functions must return int and return 0 on success. 
 
 ``` cpp
 int main(void) {
-    TEST(RandomTest());
+    RUN_TEST(RandomTest());
 }
 ```
