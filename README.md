@@ -1,4 +1,4 @@
-# DumbTest for C
+# Testing framework for C
 Totally minimal testing framework for C (and C++) language. It was created because i couldn't find some easy to use C testing framework and writting this mini version just seemed easier.
 
 ## Usage
